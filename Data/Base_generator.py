@@ -49,4 +49,4 @@ while len(base_de_donnees) < 500:
 
 df = pd.DataFrame(base_de_donnees)
 
-df.to_excel('base_de_donnees.xlsx', index=False, engine='openpyxl')
+# df.to_excel('base_de_donnees.xlsx', index=False, engine='openpyxl')
